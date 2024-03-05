@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/service/api.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1709669210321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709669216454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import axios \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669222639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import axios from '@'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669229068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import axios from 'ax'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669236446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import axios from 'axios'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669263321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import axios from 'axios';\r\n+\r\n"
+                },
+                {
+                    "date": 1709669271757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import axios from 'axios';\r\n+\r\n+const api = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669277728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import axios from 'axios';\r\n+\r\n+const api = axios.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669285993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import axios from 'axios';\r\n+\r\n+const api = axios.c\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669292213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import axios from 'axios';\r\n+\r\n+const api = axios.create({\r\n+    \r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669389270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import axios from 'axios';\r\n+\r\n+const api = axios.create({\r\n+    baseURL: 'http://localhost:8080/\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669434200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n import axios from 'axios';\r\n \r\n const api = axios.create({\r\n     baseURL: 'http://localhost:8080/'\r\n-})\n\\ No newline at end of file\n+})\r\n+\r\n+expo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709669439281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import axios from 'axios';\r\n+\r\n+const api = axios.create({\r\n+    baseURL: 'http://localhost:8080/'\r\n+})\r\n+\r\n+export default api\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1709669210321,
+            "name": "Commit-0",
+            "content": "impot"
+        }
+    ]
+}

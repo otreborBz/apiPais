@@ -1,0 +1,54 @@
+{
+    "sourceFile": "App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1709660853969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709660859927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { StatusBar } from 'expo-status-bar';\n-import { StyleSheet, Text, View } from 'react-native';\n+import { StyleSheet, View } from 'react-native';\n \n export default function App() {\n   return (\n     <View style={styles.container}>\n"
+                },
+                {
+                    "date": 1709660867668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      \n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660876148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import form\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      \n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660887827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import Form from ''\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      \n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660893054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import Form from './src'\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      \n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660898320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import Form from './src/components/form'\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      \n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660904088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import Form from './src/components/form'\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      <\n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                },
+                {
+                    "date": 1709660909761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n export default function App() {\n   return (\n     <View style={styles.container}>\n-      <Form\n+      <Form/>\n       <StatusBar style=\"auto\" />\n     </View>\n   );\n }\n"
+                },
+                {
+                    "date": 1709661205333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { StatusBar } from 'expo-status-bar';\n+import { StyleSheet, View } from 'react-native';\n+import Form from './src/components/form'\n+\n+export default function App() {\n+  return (\n+    <View style={styles.container}>\n+      <Form/>\n+      <StatusBar style=\"auto\" />\n+    </View>\n+  );\n+}\n+\n+const styles = StyleSheet.create({\n+  container: {\n+    flex: 1,\n+    backgroundColor: '#fff',\n+    alignItems: 'center',\n+    justifyContent: 'center',\n+  },\n+});\n"
+                }
+            ],
+            "date": 1709660853969,
+            "name": "Commit-0",
+            "content": "import { StatusBar } from 'expo-status-bar';\nimport { StyleSheet, Text, View } from 'react-native';\n\nexport default function App() {\n  return (\n    <View style={styles.container}>\n      \n      <StatusBar style=\"auto\" />\n    </View>\n  );\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n});\n"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "sourceFile": "src/components/form/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 50,
+            "patches": [
+                {
+                    "date": 1709660818291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709660827376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+en\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709660835997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { View } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   \r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709660845086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { View } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View/>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661150147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,7 @@\n import { View } from 'react-native';\r\n \r\n export default function form() {\r\n  return (\r\n-   <View/>\r\n-  );\r\n-}\n-import { View } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n    \r\n   );\r\n-}\n-en\n-rc\n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661155943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { View } from 'react-native';\r\n+import { View, Text } from 'react-native';\r\n \r\n export default function form() {\r\n  return (\r\n    \r\n"
+                },
+                {
+                    "date": 1709661162496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { View, Text } from 'react-native';\r\n \r\n export default function form() {\r\n  return (\r\n-   \r\n+   <\r\n   );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661168236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        \r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661174124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text></Text>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661183247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API </Text>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661192574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661216681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        \r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661222568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,51 +3,8 @@\n export default function form() {\r\n  return (\r\n    <View>\r\n         <Text>API- Paises</Text>\r\n-        \r\n+        <View\r\n    </View>\r\n   );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API </Text>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text></Text>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        \r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <\r\n-  );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661228695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661234922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais</Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661249015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { View, Text } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais </Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661257711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais <TextInput</Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661265756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput></TextInput></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661281924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput></TextInput></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Pais: <TextInput></TextInput></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661350174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput></TextInput></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661358149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></TextInput></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661400367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import \r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661409926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from ''\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661415998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from '.'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661428458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View >\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661435360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style: Styles{}>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661445981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style:>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661453336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style:{Styles.container}>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661462355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style: Styles{}>\r\n+        <Text>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661470121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import Styles from './style/'\r\n \r\n export default function form() {\r\n  return (\r\n-   <View style: Styles{}>\r\n+   <View style={Styles.container}>\r\n         <Text>API- Paises</Text>\r\n         <View>\r\n             <Text>Pais: <TextInput/></Text>\r\n         </View>\r\n@@ -12,232 +12,5 @@\n             <Text>Capital: <TextInput/></Text>\r\n         </View>\r\n    </View>\r\n   );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style:{Styles.container}>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style:>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style: Styles{}>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View >\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from '.'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from ''\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import \r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></TextInput></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput></TextInput></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput></TextInput></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Pais: <TextInput></TextInput></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput></TextInput></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais <TextInput</Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais </Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais</Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text } from 'react-native';\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View>\r\n-        <Text>API- Paises</Text>\r\n-        <View\r\n-   </View>\r\n-  );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661581333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661591390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles}>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661597290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+        </View>\r\n+        <View>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661681962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661688582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View >\r\n+            <Text>Pais: <TextInput/></Text>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661694248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,89 +4,12 @@\n export default function form() {\r\n  return (\r\n    <View style={Styles.container}>\r\n         <Text style={Styles.title}>API- Paises</Text>\r\n-        <View >\r\n-            <Text>Pais: <TextInput/></Text>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style={Styles.container}>\r\n-        <Text style={Styles.title}>API- Paises</Text>\r\n         <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n+            <Text>Pais: <TextInput\r\n+            /></Text>\r\n             <Text>Capital: <TextInput/></Text>\r\n         </View>\r\n    </View>\r\n   );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style={Styles.container}>\r\n-        <Text style={Styles.title}>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style={Styles.container}>\r\n-        <Text style={Styles}>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style={Styles.container}>\r\n-        <Text style>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n-}\n-import { View, Text, TextInput } from 'react-native';\r\n-import Styles from './style/'\r\n-\r\n-export default function form() {\r\n- return (\r\n-   <View style={Styles.container}>\r\n-        <Text>API- Paises</Text>\r\n-        <View>\r\n-            <Text>Pais: <TextInput/></Text>\r\n-        </View>\r\n-        <View>\r\n-            <Text>Capital: <TextInput/></Text>\r\n-        </View>\r\n-   </View>\r\n-  );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661722812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.title}>\r\n+            <Text>Pais: <TextInput\r\n+            /></Text>\r\n+            <Text>Capital: <TextInput\r\n+            /></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661729292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.conte}>\r\n+            <Text>Pais: <TextInput\r\n+            /></Text>\r\n+            <Text>Capital: <TextInput\r\n+            /></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661734866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <Text>Pais: <TextInput\r\n+            /></Text>\r\n+            <Text>Capital: <TextInput\r\n+            /></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661816394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <Text>Pais: <TextInput/></Text>\r\n+            <Text>Capital: <TextInput\r\n+            /></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661832020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <Text>Pais: </Text>\r\n+            <Text>Capital: <TextInput/></Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661840781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <Text>Pais:</Text>\r\n+            <TextInput/>\r\n+            <Text>Capital: </Text>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661847338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            \r\n+            <Text>Pais:</Text>\r\n+            <TextInput/>\r\n+            <Text>Capital:</Text>\r\n+            <TextInput/>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661852985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View\r\n+            <Text>Pais:</Text>\r\n+            <TextInput/>\r\n+            <Text>Capital:</Text>\r\n+            <TextInput/>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661863802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View>\r\n+\r\n+            </View>\r\n+            <View>\r\n+                \r\n+            </View>\r\n+            <Text>Pais:</Text>\r\n+            <TextInput/>\r\n+            <Text>Capital:</Text>\r\n+            <TextInput/>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709661869267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View>\r\n+\r\n+            </View>\r\n+            <View>\r\n+                \r\n+            </View>\r\n+            \r\n+            <Text>Capital:</Text>\r\n+            <TextInput/>\r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709662234906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View>\r\n+            <Text>Pais:</Text>\r\n+            <TextInput/>\r\n+            </View>\r\n+            <View>\r\n+                \r\n+            </View>\r\n+            \r\n+            \r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709662241920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View>\r\n+                <Text>Pais:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            <View>\r\n+                <Text>Capital:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            \r\n+            \r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709662365846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View style={Styles.form}>\r\n+                <Text>Pais:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            <View>\r\n+                <Text>Capital:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            \r\n+            \r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709662379825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,6 @@\n             \r\n             \r\n         </View>\r\n    </View>\r\n-  \n\\ No newline at end of file\n+  );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709662389635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { View, Text, TextInput } from 'react-native';\r\n+import Styles from './style/'\r\n+\r\n+export default function form() {\r\n+ return (\r\n+   <View style={Styles.container}>\r\n+        <Text style={Styles.title}>API- Paises</Text>\r\n+        <View style={Styles.form}>\r\n+            <View style={Styles.input}>\r\n+                <Text>Pais:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            <View style={Styles.input}>\r\n+                <Text>Capital:</Text>\r\n+                <TextInput/>\r\n+            </View>\r\n+            \r\n+            \r\n+        </View>\r\n+   </View>\r\n+  );\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1709660818291,
+            "name": "Commit-0",
+            "content": "rc"
+        }
+    ]
+}
