@@ -6,7 +6,7 @@ export default function ListaPaises({ pais, atualizaLista }) {
   const [id, setId] = useState(null);
   const [novoNome, setNovoNome] = useState('');
   const [novaCapital, setNovaCapital] = useState('');
-  const [editando, setEditando] = useState(false); // Estado para controlar se está editando
+  const [editando, setEditando] = useState(false);
 
   useEffect(() => {
     setId(pais.id);
@@ -15,18 +15,12 @@ export default function ListaPaises({ pais, atualizaLista }) {
   }, [pais]);
 
   function deletar() {
-    if (!id) {
-      console.error('ID do país não está definido.');
-      return;
-    }
-
     api.delete(`/pais/${id}`)
       .then(response => {
         Alert.alert('Sucesso', 'O país foi deletado com sucesso.');
         atualizaLista();
       })
       .catch(error => {
-        console.error('Erro ao deletar', error);
         Alert.alert('Erro', 'Ocorreu um erro ao deletar o país.');
       });
   }
@@ -34,13 +28,11 @@ export default function ListaPaises({ pais, atualizaLista }) {
   function editar() {
     api.put(`/pais/${id}`, { nome: novoNome, capital: novaCapital })
       .then(response => {
-        console.log(response.data);
         Alert.alert('Sucesso', 'O país foi atualizado com sucesso.');
         setEditando(false);
         atualizaLista();
       })
       .catch(error => {
-        console.error('Erro ao editar', error);
         Alert.alert('Erro', 'Ocorreu um erro ao editar o país.');
       });
   }
